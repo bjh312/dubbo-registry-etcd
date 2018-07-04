@@ -14,7 +14,7 @@ etcd3 registry for dubbo framework
 
 ## etcd3注册中心配置简介
 
-这里讲解的启动`etcd3`主要方便本地运行单元测试跟踪内部细节，集群启动也是在本地启动的伪集群。
+这里讲解的启动`etcd3`主要方便本地运行单元测试跟踪内部细节，集群启动也是在本地启动的伪集群。
 
 当前实现是针对`etcd3`，需要指定环境变量，在mac"中`~/.bash_profile`添加：
 
@@ -23,7 +23,7 @@ etcd3 registry for dubbo framework
 export ETCDCTL_API=3
 ```
 
-如果使zsh的shell，把`~/.bash_profile`加进去：
+如果使zsh的shell，把`~/.bash_profile`加进去：
 
 ```shell
 source /Users/yourUserName/.bash_profile
@@ -31,7 +31,7 @@ source /Users/yourUserName/.bash_profile
 
 添加这个环境变量是告诉etcdctl客户端使用高版本的api。
 
-## 安装etcd
+## 安装etcd
 
 进入[etcd安装包](https://github.com/coreos/etcd/releases)选择对应平台的安装包，以mac为例:
 
