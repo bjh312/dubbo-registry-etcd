@@ -2,6 +2,16 @@
 etcd3 registry for dubbo framework
 
 ## Easy to use etcd3
+
+Add dependencies in `pom.xml`:
+```xml
+<dependency>
+    <groupId>org.apache.dubbo</groupId>
+    <artifactId>dubbo-reigstry-etcd3</artifactId>
+    <version>2.7.0-SNAPSHOT</version>
+</dependency>
+```
+
 Stand-alone mode：
 ```xml
 <dubbo:registry address="etcd3://127.0.0.1:2379"/>
