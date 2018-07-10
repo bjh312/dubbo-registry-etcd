@@ -7,7 +7,7 @@ Add dependencies in `pom.xml`:
 ```xml
 <dependency>
     <groupId>org.apache.dubbo</groupId>
-    <artifactId>dubbo-reigstry-etcd3</artifactId>
+    <artifactId>dubbo-registry-etcd3</artifactId>
     <version>2.7.0-SNAPSHOT</version>
 </dependency>
 ```
