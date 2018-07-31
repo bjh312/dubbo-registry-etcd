@@ -23,13 +23,13 @@ import com.coreos.jetcd.options.PutOption;
 import io.grpc.ManagedChannel;
 import io.grpc.Status;
 import io.grpc.util.RoundRobinLoadBalancerFactory;
-import org.apache.dubbo.common.Constants;
 import org.apache.dubbo.common.URL;
 import org.apache.dubbo.common.concurrent.ListenableFutureTask;
 import org.apache.dubbo.common.logger.Logger;
 import org.apache.dubbo.common.logger.LoggerFactory;
 import org.apache.dubbo.common.utils.NamedThreadFactory;
 import org.apache.dubbo.remoting.etcd.StateListener;
+import org.apache.dubbo.remoting.etcd.option.Constants;
 import org.apache.dubbo.remoting.etcd.option.OptionUtil;
 
 import java.lang.reflect.Field;
